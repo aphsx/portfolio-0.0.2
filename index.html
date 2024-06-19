@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav id="dekstop-nav">
+    <nav id="desktop-nav">
         <div class="logo">aphsx</div>
         <div>
             <ul class="nav-link">
@@ -21,6 +21,22 @@
                 <li><a href="#">Projects</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">aphsx</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#" onclick="toggleMenu()">About</a></li>
+                <li><a href="#" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#" onclick="toggleMenu()">Contact</a></li>
+            </div>
         </div>
     </nav>
     <script src="script.js"></script>
